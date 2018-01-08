@@ -75,12 +75,30 @@
 }
 .ingredientList {
   background: url("assets/list-bg.png");
-  padding: 30px 70px;
+  padding: 38px 70px;
+  border: 1px solid #edead9;
+  border-top: none;
+  box-shadow: 0 14px 5px -5px rgba(0,0,0,0.1), 0 3px 0 -2px #c5c4b6, 0 2px 0 #fff, 0 7px 0 -4px #c5c4b6, 0 4px 0 #fff, 0 11px 0 -6px #c5c4b6;
+  margin-bottom: 20px;
 }
 .ingredientList li {
-  line-height: 30px;
-  width: 49%;
-  display: inline-block;
+  line-height: 31px;
+  width: 43%;
   color: #71664f;
-  text-decoration: none;
+  display: inline-table;
+  background: url("assets/checkBox.svg") no-repeat left 6px;
+  background-size: 13px 14px;
+  padding: 0 25px;
+  font-size: 24px;
+}
+.ingredientList .crossedOff {
+  text-decoration: line-through;
+  background: url("assets/checkedBox.svg") no-repeat left 6px;
+  background-size: 13px 14px;
+}
+.footer {
+  padding-top: 35px;
+}
+.bottomBorder {
+  margin-top: 50px;
 }
