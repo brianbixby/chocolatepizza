@@ -98,7 +98,63 @@
 }
 .footer {
   padding-top: 35px;
+  height: 119px;
 }
 .bottomBorder {
   margin-top: 50px;
+}
+.footer img {
+  float: left;
+}
+.aboutAuthor {
+  display: inline-block;
+  margin-left: 20px;
+  width: 650px;
+  float: left;
+  margin-bottom: 50px;
+}
+.author {
+  color: #555;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  font-family: serif;
+}
+.bio {
+  color: #555;
+  font-size: 21px;
+  margin: 8px 0 0 0;
+  font-family: serif;
+}
+button {
+  float: right;
+  width: 20%;
+  height: 54px;
+  margin: 10px 0 0;
+  background: #bb7056;
+  font-size: 20px;
+  color: #f2f2f2;
+  font-family: 'Abel', sans-serif;
+}
+.signature {
+  position: relative;
+  margin: 60px 0 0;
+  padding: 45px 0 30px;
+  border-top: 1px solid #e6e6e6;
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+.signature img {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  box-shadow: 0 0 0 10px #fff, inset 0 0 0 50px #fff;
+}
+.copyRight {
+  text-align: center;
+  color: #AAA;
+  font-family: Serif;
+  font-size: 14px;
+  line-height: 22px;
 }
